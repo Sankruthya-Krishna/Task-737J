@@ -1,17 +1,17 @@
 {
   "scopes": [
     {
-      "name": "$XSAPPNAME.BTP-TASKAdmin",
-      "description": "BTP-TASKAdmin"
+      "name": "$XSAPPNAME.Task-devAdmin",
+      "description": "Task-devAdmin"
     }
   ],
   "attributes": [],
   "role-templates": [
     {
-      "name": "BTP-TASKnAdmin",
+      "name": "Task-devnAdmin",
       "description": "Role for Administration of cloudKitchen",
       "scope-references": [
-        "$XSAPPNAME.BTP-TASKAdmin"
+        "$XSAPPNAME.Task-devAdmin"
       ]
     }
   ],
